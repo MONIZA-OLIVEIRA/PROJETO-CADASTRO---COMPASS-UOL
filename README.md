@@ -55,5 +55,5 @@ Passo a passo para iniciar o projeto:
   - apresentar as dificuldades conhecidas;
   - explicar como utilizar o sistema;
 - 🔨 colocar o código fonte desenvolvido (Sugestão: pasta `src`);
-- O prazo de entrega é até às 14h do dia 08/06/2024 no repositório do github (https://github.com/Compass-pb-aws-2024-JUNHO/sprint-1-pb-aws-junho).
+- O prazo de entrega é até às 14h do dia 08/07/2024 no repositório do github (https://github.com/Compass-pb-aws-2024-JUNHO/sprint-1-pb-aws-junho).
 
