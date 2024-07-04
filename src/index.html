@@ -7,8 +7,10 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+ <div class="container">
     <div class="wrapper">
         <h1>Cadastro de Paciente</h1>
+         <!-- Formulário de cadastro -->
         <form id="cadastroForm">
 
         <label for="nome"><h2>Nome:</h2></label>
@@ -56,14 +58,22 @@
         <label for="convenio"><h2>Convênio:</h2></label>
         <input id="convenio" name="convenio" type="text">
         <br>
-
-        <button onclick="Cadastrar()" type="button">Cadastrar</button>
-        <button onclick="ConsultarCadastro()" type="button">Consultar Cadastro</button>
-        
+         <!-- Botão para cadastrar dados -->
+        <button id="Cadastrar" type="button">Cadastrar</button>
         </form>
-
-        <div id="mensagem"></div>
+    
+   <div class="wrapper2">
+            <!-- Botões para consultar e excluir dados -->
+            <button type="button" id="consultarcadastro">Consultar Cadastro</button>
+            <button type="button" id="excluircadastro">Excluir Cadastro</button>
+        </div>
+        
+        <div class="wrapper3">
+            <!-- Área para exibir os dados armazenados -->
+            <div id="dadosExibidos"></div>
+        </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
