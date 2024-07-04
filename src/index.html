@@ -9,6 +9,7 @@
 <body>
  <div class="container">
     <div class="wrapper">
+       
         <h1>Cadastro de Paciente</h1>
          <!-- Formulário de cadastro -->
         <form id="cadastroForm">
@@ -58,19 +59,24 @@
         <label for="convenio"><h2>Convênio:</h2></label>
         <input id="convenio" name="convenio" type="text">
         <br>
-         <!-- Botão para cadastrar dados -->
+         <!-- Botão para cadastrar -->
         <button id="Cadastrar" type="button">Cadastrar</button>
+        
         </form>
     
    <div class="wrapper2">
-            <!-- Botões para consultar e excluir dados -->
+            <!-- Area de consulta -->
+            <label for="nome"><h2>Nome:</h2></label>
+            <input id="nomebusca" name="nomebusca" type="text">
+            <br>
             <button type="button" id="consultarcadastro">Consultar Cadastro</button>
-            <button type="button" id="excluircadastro">Excluir Cadastro</button>
         </div>
         
         <div class="wrapper3">
-            <!-- Área para exibir os dados armazenados -->
+            <!-- Área para exibir os dados  -->
             <div id="dadosExibidos"></div>
+            <button type="button" id="excluircadastro">Excluir Cadastro</button>
+            <button type="button" id="fechar">Fechar</button>
         </div>
     </div>
     
