@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua; /*trocar por imagem*/
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    margin-bottom: 20px;
+}
+
+.wrapper h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+form button {
+    background-color: #2dc650;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.wrapper2,
+.wrapper3 {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.wrapper2 input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.wrapper2 button {
+    background-color: #4e22d1;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.wrapper3 button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#dadosExibidos {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+button#fechar {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
