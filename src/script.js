@@ -161,7 +161,7 @@ document.getElementById('excluircadastro').addEventListener('click', function() 
 
             //limpa a exibição
             document.getElementById('dadosExibidos').innerHTML = '';
-
+            document.getElementById('nomebusca').value = '';
             alert ('Paciente Excluido')
     }
    
