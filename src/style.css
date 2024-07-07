@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: aqua; /*trocar por imagem*/
+    background-image:url('https://img.freepik.com/vetores-gratis/padrao-de-dentista-plana_23-2148110822.jpg'); 
     line-height: 1.6;
     padding: 20px;
 }
